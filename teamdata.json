@@ -1,0 +1,35 @@
+{
+    "kris": {
+        "name": "Kris",
+        "basehp": 100,
+        "hpperlevel": 30,
+        "baseattack": 70,
+        "attackperlevel": 30,
+        "basemagic": 10,
+        "magicperlevel": 0,
+        "maxframes": 5,
+        "id": 1
+    },
+    "susie": {
+        "name": "Susie",
+        "basehp": 110,
+        "hpperlevel": 35,
+        "baseattack": 90,
+        "attackperlevel": 45,
+        "basemagic": 12,
+        "magicperlevel": 4,
+        "maxframes": 5,
+        "id": 2
+    },
+    "ralsei": {
+        "name": "Ralsei",
+        "basehp": 90,
+        "hpperlevel": 25,
+        "baseattack": 60,
+        "attackperlevel": 20,
+        "basemagic": 15,
+        "magicperlevel": 6,
+        "maxframes": 5,
+        "id": 3
+    }
+}

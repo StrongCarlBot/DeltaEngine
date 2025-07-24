@@ -1,0 +1,8 @@
+{
+    "placeholder":{
+        "name":"Placeholder",
+        "hp":150,
+        "attack":13,
+        "id":1
+    }
+}
