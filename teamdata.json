@@ -7,7 +7,8 @@
         "attackperlevel": 30,
         "basemagic": 10,
         "magicperlevel": 0,
-        "maxframes": 5,
+        "idleframes":6,
+        "defendframes":6,
         "id": 1
     },
     "susie": {
@@ -18,7 +19,8 @@
         "attackperlevel": 45,
         "basemagic": 12,
         "magicperlevel": 4,
-        "maxframes": 5,
+        "idleframes":4,
+        "defendframes":5,
         "id": 2
     },
     "ralsei": {
@@ -29,7 +31,8 @@
         "attackperlevel": 20,
         "basemagic": 15,
         "magicperlevel": 6,
-        "maxframes": 5,
+        "idleframes":5,
+        "defendframes":6,
         "id": 3
     }
 }
