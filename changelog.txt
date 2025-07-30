@@ -1,0 +1,36 @@
+Precise changelog created at the time v0.32.1 was finished, changelog info recorded regarding versions before v0.32.1 may be missing elements.
+
+v0.32.1
+    Opened changelog.
+    Implemented saving of the TP for when a given party member finishes their turn; fixes any bug related to cancelling "defend" twice in a row.
+    Implemented saving of the last action made by a given party member; goes by default to this last pressed button for when it is this party member's turn after a cancellation (the purpose is general QoL from Deltarune).
+    Doubled the defend's animation speed to match the one in the game.
+    Fixed TP related issues regarding the bars.
+v0.20-v0.31
+    Changed TP bar fundamentals.
+    Implemented about 80% of the battle UI system; including buttons, names, icons and background.
+    Added party member states to a list for tracking purposes.
+    Added starting team pos to initfight() function.
+    "%" (under TP) is now hidden if TP=100.
+    Switch to 4:3 aspect ratio to better match Deltarune's graphics.
+    Fixed UI related issues.
+v0.10-v0.20
+    Added Tweening to TP related content.
+    Changed the way TP updates.
+    Fixed TP bar issues.
+    Added Ralsei as a party member.
+    Started laying out the basics of UI.
+    Removed the battle box from the player's visibility in normal circumstances (=outside of the enemy's turn).
+    Implemented xdecal and ydecal (space between each party member) into the initfight() function.
+    Added "MAX" to TP.
+    Fixed numerous issues.
+v0.10-BuildA
+    Implemented the battle's box hitbox.
+    Added the basics of TP (working bar but no Tweening).
+    Removed the black background.
+    Added Susie and Kris as party members.
+BuildA5-BuildA1
+    Implemented the battle box (costume-wise, no hitbox) and the entire attack structure (clone & basic spawning function).
+    Added a black background.
+BuildA1
+    Contains the Soul, a keybind customization system for Soul movement and a few strips of other code.
