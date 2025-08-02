@@ -1,20 +1,20 @@
 {
     "placeholder": {
-        "name": "Placeholder",
+        "name": "Rock",
         "hp": 150,
         "attack": 13,
         "attackdata": [
             {
                 "name": "placeholder",
-                "upcomingtext":"you can change this cool newline text%in enemydata.json!! you can then press i!",
+                "upcomingtext":"You're fighting against a... rock?",
                 "class": "projectile",
-                "startx": 150,
-                "starty": 50,
+                "startx": 100,
+                "starty": 100,
                 "startdir": -90,
                 "costumes": [
                     "laser"
                 ],
-                "damage": 3,
+                "damage": 5,
                 "velocity": 8,
                 "target": [
                     "ralsei"
@@ -31,4 +31,5 @@
         ],
         "id": 1
     }
+
 }
