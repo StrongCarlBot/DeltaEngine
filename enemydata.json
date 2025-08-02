@@ -1,8 +1,34 @@
 {
-    "placeholder":{
-        "name":"Placeholder",
-        "hp":150,
-        "attack":13,
-        "id":1
+    "placeholder": {
+        "name": "Placeholder",
+        "hp": 150,
+        "attack": 13,
+        "attackdata": [
+            {
+                "name": "placeholder",
+                "upcomingtext":"you can change this cool newline text%in enemydata.json!! you can then press i!",
+                "class": "projectile",
+                "startx": 150,
+                "starty": 50,
+                "startdir": -90,
+                "costumes": [
+                    "laser"
+                ],
+                "damage": 3,
+                "velocity": 8,
+                "target": [
+                    "ralsei"
+                ],
+                "touchingidentifier": 2,
+                "xdecal": 0,
+                "ydecal": 0,
+                "dirdecal": 0,
+                "duration": 10,
+                "delay": 0.6,
+                "subdelay": 0.2,
+                "repeat": 5
+            }
+        ],
+        "id": 1
     }
 }

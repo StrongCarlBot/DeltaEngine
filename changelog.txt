@@ -1,5 +1,54 @@
 Precise changelog created at the time v0.32.1 was finished, changelog info recorded regarding versions before v0.32.1 may be missing elements.
-
+v0.42.6
+    The game now supports custom text for each incoming attack in "upcoming text" in enemydata.json>enemyname>attackdata>upcomingtext.
+    (v0.41)Implemented custom support for newline character (newline character being %) in "upcomingtext".
+    (v0.42)Improved support for newline character from 2 lines max to infinite lines.
+    Fixed a bug where text would reprint each party member's turn.
+    Fixed a bug where text would stop printing after Kris played its turn.
+    Fixed a bug where text would keep printing in the enemy's turn if you mashed fast enough through the menu layers.
+    Fixed a bug where the last character of the "upcoming text" prompt would be voided and not printed.
+v0.40.12
+    Implementing battle effect with tweened bars around characters.
+    UI has been optimized since the UI color is now automatically taken from "overlaycolor" in teamdata.json.
+    Increased TP bar tween speed along with the tweened bars tween speed.
+    Implemented a background with some effects.
+    Implemented a TP effect when TP reaches MAX.
+    TP bar now changes color the more TP you gather.
+    Attack layering has been remade to be in the likes of Deltarune.
+    Changed the TP background color to red (as in the likes of Deltarune).
+    Changed TP outline to a rectangle shaped outline.
+    Fixed an issue with the remaining tweened bars from the previous party member that played not despawning when the turn switch is done.
+    Fixed an issue related to a costume bug if you mashed through the menus at a 2-frame window.
+    Fixed an issue related to costumes bug with the defend command.
+    Fixed an issue related to the final party member's turn TP bar not tweening due to enemy's turn starting (it's complicated).
+    Fixed background underlapping.
+    Fixed an oversight with Kris's costume ordering.
+    Fixed an oversight with Susie's costume ordering.
+    Fixed an issue with TP effect bugging when being cancelled.
+v0.38.2
+    Implemented Battle UI text along with the SFX.
+    SFX's pitch increases by a bit for each character of text printed out.
+v0.37.4
+    Reworked the entire structure so that it can now fetch attacks from enemydata.json.
+    Implemented battle box closing animation.
+    Implemented xdecal, ydecal, dirdecal and other complex factors to enemyattack function.
+    Projectile costumes are now handled in an array to support switching costumes while the attack is ongoing.
+    Implemented "grazearea" in the team data in the "Soul" key.
+    Added some effects to the Soul upon start/end of an attack.
+    Fixed an issue related to a costume animation not finishing if you mashed too fast through the menu.
+    Fixed an issue related to BattleBox.
+    Fixed an issue related to Kris's turn being skipped after the enemy played its turn.
+v0.34.2
+    TP gain now increases the more projectiles you graze.
+    Invincibility, TP to Soul gain, grazing and attack detection revamped.
+    Party members can now take damage (damage is simply the same for all members).
+    Fixed a bug where party members could take damage multiple times if they were hit multiple times in a small window of time.
+v0.33.4
+    Removed plain soul HP and started implementing features to utilize party member HP rather than the previous soul HP.
+    Started to implement target arg to the initfight() function.
+    Mapped DEBUG tools: "f" to start a fight, "s" to force switch the turn and "a" to initialize any attack.
+    Fixed an issue related to TP bar.
+    Fixed a graphical issue occuring when TP reaches MAX.
 v0.32.1
     Opened changelog.
     Implemented saving of the TP for when a given party member finishes their turn; fixes any bug related to cancelling "defend" twice in a row.
