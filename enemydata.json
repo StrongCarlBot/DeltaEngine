@@ -1,5 +1,5 @@
 {
-    "Rock": {
+    "placeholder": {
         "name": "Rock",
         "hp": 150,
         "attack": 13,
@@ -33,4 +33,5 @@
     }
 
 }
+
 
