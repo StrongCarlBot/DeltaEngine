@@ -1,11 +1,11 @@
 {
-    "placeholder": {
+    "Rock": {
         "name": "Rock",
         "hp": 150,
         "attack": 13,
         "attackdata": [
             {
-                "name": "placeholder",
+                "name": "Rock",
                 "upcomingtext":"You're fighting against a... rock?",
                 "class": "projectile",
                 "startx": 100,
@@ -33,3 +33,4 @@
     }
 
 }
+
